@@ -102,22 +102,22 @@ graph TD
 1.  克隆或下载本仓库。
 2.  确保已在引擎中启用`Logic Driver Pro`插件。
 3.  使用Unreal Engine打开`StateMachineTutorial.uproject`文件。
-4.  打开主关卡 (例如 `Content/Maps/MainLevel`)。
+4.  打开主关卡 `Content/Maps/StateMachineTutorial`。
 5.  点击 **运行 (Play)** 即可开始探索。
 
 ### 3. 调试技巧
 
-*   **Print String**: 在状态的`On State Begin`或转换的`On Transition Taken`事件中打印日志，是简单有效的调试方法。
-*   **Logic Driver调试器**: 在游戏运行时，打开状态机蓝图，插件会**实时高亮**当前激活的状态和最近经过的转换路径。这是进行可视化调试的超级利器！
+*   **Print String**: 在状态机的`OnStateMachineStateChanged`事件中打印日志，是简单有效的调试方法。
 
 ---
 
 ## 核心资产文件 (Core Assets)
 
-*   `Content/Blueprints/BP_Global`: 全局管理器Actor。
-*   `Content/StateMachines/FSM_Global`: 主状态机。
-*   `Content/StateMachines/FSM_InGame`: 核心玩法的子状态机，也是本次课程练习的主要操作对象。
-*   `Content/Blueprints/BP_Character`: 实现了颜色变化逻辑的角色蓝图。
+*   `Content/Blueprints/BP_Global`: 全局管理器Actor，以及按键响应逻辑。
+*   `Content/Blueprints/FSM_Global`: 主状态机。
+*   `Content/Blueprints/FSM_InGame`: 核心玩法的子状态机，也是本次课程练习的主要操作对象。
+*   `Content/Blueprints/EnumEvents`: 驱动状态机的外部事件定义。
+*   `Content/Blueprints/UI/UI_Info`: UI。
 
 ---
 
