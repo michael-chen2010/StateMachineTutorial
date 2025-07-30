@@ -16,7 +16,7 @@
 
 本项目旨在解决这一痛点，展示如何通过**状态机**这一优雅的设计模式，将混乱的逻辑重塑为清晰、模块化的结构。
 
-![*(Demo截图)*](https://media.githubusercontent.com/media/michael-chen2010/StateMachineTutorial/refs/heads/main/pics/statemachine.gif)
+![*(Demo截图)*](https://media.githubusercontent.com/media/michael-chen2010/StateMachineTutorial/refs/heads/main/pics/statemachine.png)
 
 ---
 
