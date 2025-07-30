@@ -10,7 +10,7 @@
 
 你是否也曾被这样盘根错节的蓝图所困扰？
 
-https://media.githubusercontent.com/media/michael-chen2010/StateMachineTutorial/refs/heads/main/pics/complexlogic.png
+![复杂蓝图示例](https://media.githubusercontent.com/media/michael-chen2010/StateMachineTutorial/refs/heads/main/pics/complexlogic.png)
 
 当角色的状态（如待机、跑动、攻击、受击、潜行）增多时，传统的布尔值和分支判断(Branch)会迅速失控，导致逻辑难以阅读、维护和扩展。
 
